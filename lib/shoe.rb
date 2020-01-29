@@ -8,15 +8,10 @@ class Shoe
     @brand = brand
     BRANDS.each{|brand_name|
       if brand_name == brand
-        puts brand_name
-        puts brand
-        puts
         return
-        #BRANDS.push(brand)
       end
-
-      }
-      BRANDS.push(brand)
+    }
+    BRANDS.push(brand)
   end
 
   def brand=(brand)
