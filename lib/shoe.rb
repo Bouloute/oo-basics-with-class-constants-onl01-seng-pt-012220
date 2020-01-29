@@ -6,12 +6,18 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.push(brand)
+    BRANDS.each{|brand_name|
+      if brand_name == brand
+        return
+        #BRANDS.push(brand)
+      end
+      BRANDS.push(brand)
+      }
   end
 
   def brand=(brand)
     @brand = brand
-
+    
 
 
   end
