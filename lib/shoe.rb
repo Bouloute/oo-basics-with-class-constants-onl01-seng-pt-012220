@@ -9,7 +9,10 @@ class Shoe
     BRANDS.push(brand)
   end
 
-
+  def brand=(brand)
+    @brand = brand
+    BRANDS.push(brand)
+  end
 
   def cobble
     self.condition = "new"
