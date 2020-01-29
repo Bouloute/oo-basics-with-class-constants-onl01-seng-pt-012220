@@ -17,7 +17,7 @@ class Shoe
       end
       }
 
-      
+
   end
 
   def cobble
