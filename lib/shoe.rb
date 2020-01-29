@@ -19,7 +19,7 @@ class Shoe
         return
       end
       }
-      
+
       BRANDS.push(brand)
   end
 
