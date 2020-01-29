@@ -9,7 +9,7 @@ class Shoe
     BRANDS.each{|brand_name|
       if brand_name == brand
         puts brand_name
-        puts brand 
+        puts brand
         puts
         #BRANDS.push(brand)
       end
