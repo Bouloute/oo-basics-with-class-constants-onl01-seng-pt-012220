@@ -17,7 +17,7 @@ class Shoe
       end
       }
 
-      BRANDS.push(brand)
+      
   end
 
   def cobble
