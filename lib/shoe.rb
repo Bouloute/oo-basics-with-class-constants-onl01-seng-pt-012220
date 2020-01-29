@@ -13,8 +13,9 @@ class Shoe
         puts
         #BRANDS.push(brand)
       end
-      BRANDS.push(brand)
+      
       }
+      BRANDS.push(brand)
   end
 
   def brand=(brand)
