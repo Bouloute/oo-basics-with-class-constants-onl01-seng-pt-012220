@@ -11,7 +11,12 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS.push(brand)
+    BRANDS.each{|brand_name| 
+      if brand_name == brand
+        return
+      end
+      BRANDS.push(brand)
+      }
   end
 
   def cobble
