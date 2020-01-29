@@ -13,7 +13,7 @@ class Shoe
         puts
         #BRANDS.push(brand)
       end
-      
+
       }
       BRANDS.push(brand)
   end
