@@ -11,6 +11,7 @@ class Shoe
         puts brand_name
         puts brand
         puts
+        return
         #BRANDS.push(brand)
       end
 
