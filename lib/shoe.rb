@@ -6,12 +6,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.each{|brand_name|
-      if brand_name == brand
-        return
-      end
-    }
-    BRANDS.push(brand)
+    if BRANDS.include?(band) == false
+      BRANDS.push(brand)
+    end
   end
 
   def cobble
