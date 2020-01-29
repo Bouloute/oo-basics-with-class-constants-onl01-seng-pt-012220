@@ -13,7 +13,7 @@ class Shoe
     @brand = brand
     BRANDS.each{|brand_name|
       if brand_name == brand
-        BRANDS.push(brand)
+        #BRANDS.push(brand)
       end
       }
 
